@@ -6,7 +6,7 @@ function create_clip {
   then
     PHRASE="$1"
   fi
-  say -v "Alex" "${PHRASE}" -o "clips/Placeholder - ${1}.aiff"
+  say -v "Alex" "${PHRASE} [[slnc 10000]]" -o "clips/Placeholder - ${1}.aiff"
 }
 
 mkdir clips
